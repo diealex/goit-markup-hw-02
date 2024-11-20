@@ -1,30 +1,27 @@
 body {
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
     background-color: #ffffff;
 }
 
-h1 {  
+.header1 {  
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.0714;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
 }
 
-h2 {
+.header2 {
     color: #2E2F42;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
 }
 
-h3 {
+.header3 {
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
@@ -45,8 +42,9 @@ a {
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
+    color: #4d5ae5;
     font-size: 18px;
-    line-height: 1.1667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left;
     text-transform: uppercase;
@@ -60,30 +58,26 @@ a {
     color: #F4F4FD;
 }
 
-nav a {
-    color: #2E2F42;
-}
-
-nav li a {
+.nav_link {
     color: #2E2F42;
     font-weight: 500;
 }
 
-nav li a:hover, nav li a:focus  {
+.nav_link:hover, .nav_link:focus  {
     color: #404BBF;
 }
 
-address a {
+.addr {
     color:#434455;
     font-style: normal;
 }
 
-address a:hover, address a:focus  {
-    color: #404BBF;
+.addr_a {
+    color: #434455;
 }
 
-.web-logo {
-    color: #4D5AE5;
+.addr_a:hover, .addr_a:focus  {
+    color: #404BBF;
 }
 
 .section-order-service {
@@ -96,7 +90,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+button:hover, button:focus {
     background-color: #404BBF;
 }
 
@@ -113,15 +107,31 @@ text-align: left;
     background-color: #FFFFFF;
 }
 
+.paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.paragraph_footer {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+
 .section-team {
     background-color: #F4F4FD;
 }
 
+.team-card {
+    background-color: #FFFFFF;
+}
 .section-portfolio {
     background-color: #E7E9FC;
 }
 
-footer  {
+.footer  {
     background-color: #2E2F42;
     color: #F4F4FD; 
 }
