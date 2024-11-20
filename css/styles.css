@@ -1,9 +1,10 @@
 body {
     font-family: "Roboto", sans-serif;
+    color: #434455;
     background-color: #ffffff;
 }
 
-.header1 {  
+.header-one {  
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -11,7 +12,7 @@ body {
     text-align: center;
 }
 
-.header2 {
+.header-two {
     color: #2E2F42;
     font-weight: 700;
     font-size: 36px;
@@ -21,7 +22,7 @@ body {
     text-transform: capitalize;
 }
 
-.header3 {
+.header-three {
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
@@ -58,12 +59,14 @@ a {
     color: #F4F4FD;
 }
 
-.nav_link {
+.nav-link {
     color: #2E2F42;
     font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
-.nav_link:hover, .nav_link:focus  {
+.nav-link:hover, .nav-link:focus  {
     color: #404BBF;
 }
 
@@ -72,11 +75,13 @@ a {
     font-style: normal;
 }
 
-.addr_a {
+.addr-link {
     color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
-.addr_a:hover, .addr_a:focus  {
+.addr-link:hover, .addr-link:focus  {
     color: #404BBF;
 }
 
@@ -114,7 +119,7 @@ text-align: left;
     color: #434455;
 }
 
-.paragraph_footer {
+.paragraph-footer {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
